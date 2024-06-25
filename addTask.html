@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Task</title>
+    <link rel="stylesheet" href="./style/addTask.css">
+</head>
+<body>
+    <div class="title-container">
+        <div class="title"><h1>Set Reminder</h1></div>
+    </div>
+    <div class="reminder-details">
+        <div class="type">
+            <p class="selected" id="notification">Notify</p>
+            <p id="tab">Open Tab</p>
+            <p id="task">Task</p>
+        </div>
+        <div class="time-picker">
+            <input type="time">
+        </div>
+        <div class="repeat">
+            <h3>Repeats</h3>
+            <ul class="days">
+                <li>S</li>
+                <li>M</li>
+                <li>T</li>
+                <li>W</li>
+                <li>Th</li>
+                <li>F</li>
+                <li>Sa</li>
+            </ul>
+        </div>
+        <div class="details">
+            <ul id="details-list">
+                <li>
+                    <div class="description">
+                        <label for="description"><h3>Describe</h3></label>
+                        <input name="description" type="text">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="confirm">
+        <button id="discard">Discard</button>
+        <button id="save">Save</button>
+    </div>
+
+    <script src="./addTask.js"></script>
+
+</body>
+</html>
